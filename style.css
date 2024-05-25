@@ -19,7 +19,8 @@ body{
 article{
 
     background-color: var(--background-page );
-    border-radius: 30px;
+    border-radius: 20px;
+    width: 500px;
     padding: 30px;
     margin: 30px auto; 
 
@@ -37,31 +38,68 @@ h2{
     color: var(--color-h2);
     text-align: center;
     font-size: var(--font-title);
+    margin-bottom: 20px 0px;
     
 }
 .preparation {
     background-color:rgb(255, 247, 252);
     padding: 20px;
     border-radius: 10px;
+    
 }
+.preparation h3{
+    color: var(--color-h3);
+
+}
+.preparation ul li{
+    margin: 5px 0;
+}
+
 .titulo1 {
     background-color: blue;
 }
 p{  
     font-size:var(--font-paragraph);
-    opacity: 60%;
     width: 100%;
-    margin: auto;
+    margin-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h3{
-    text-align: center;
     
+    margin: 20px 0;
     color: var(--color-h3);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+ul, ol {
+    margin-left: 20px;
+}
 li{
     list-style: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li::marker {
+    color: #8f5c4f;
+}
+hr{
+    border-color: #8f5c4f;
+
+}
+.separator {
+    background-color: #8f5c4f;
+    height: 1px;
+}
+.nutrition p{
+    color: black;
+    border-bottom: 1px solid #ddd0cd;
+    padding: 0cqmax;
+}
+.nutrition p span {
+
+    display: inline-block;
+    width: 50%;
+    
+}
+.cantidad{
+    color: red ;
+    font-weight: bold;
 }
