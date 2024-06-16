@@ -37,6 +37,5 @@ div img {
 @media (max-width: 480px){
 
     article{
-        grid-template-columns: 1fr;
     }
 }
