@@ -1,0 +1,40 @@
+/*Destop first */
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    min-height: 100vh;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/*TABLET STYLES*/
+@media (max-width: 880px ){
+    section{
+        background-color: violet;
+        font-size: 15px;
+
+    }
+    h2{
+        color: brown;
+
+    }
+}
+/*MOBILE-STYLES*/
+@media(max-width: 480px ){
+    section{
+        background-color: blue;
+        font-size: 10px;
+        color: white;
+    }
+
+}
+/* En tablet debera tener fondo violeta y letra de 20px*/
+
+/*En mobile debe tener fondo azul y tamaño de fuente de 15px color blanca*/
